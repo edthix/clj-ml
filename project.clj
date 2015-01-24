@@ -6,6 +6,7 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [net.mikera/core.matrix "0.32.1"]
                  [clatrix "0.4.0"]]
+  :plugins [[cider/cider-nrepl "0.8.2"]]
   :main ^:skip-aot ml.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
