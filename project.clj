@@ -5,7 +5,8 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [net.mikera/core.matrix "0.32.1"]
-                 [clatrix "0.4.0"]]
+                 [clatrix "0.4.0"]
+                 [incanter "1.5.1"]]
   :plugins [[cider/cider-nrepl "0.8.2"]]
   :main ^:skip-aot ml.core
   :target-path "target/%s"
